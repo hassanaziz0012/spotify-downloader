@@ -15,12 +15,14 @@ This is a small script that lets you download tracks and playlists from Spotify 
 1. Clone this repository.
 > git clone https://github.com/hassanaziz0012/spotify-downloader
 2. Install the required dependencies. This project needs [`ytfzf`](https://github.com/pystardust/ytfzf) and [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) to work.
-> \# install python packages, including yt-dlp \
-> pip install -r requirements.txt \
-> \# install ytfzf \
-> git clone https://github.com/pystardust/ytfzf \
-> cd ytfzf \
-> sudo make install doc
+```python
+\# install python packages, including yt-dlp \
+pip install -r requirements.txt \
+\# install ytfzf \
+git clone https://github.com/pystardust/ytfzf \
+cd ytfzf \
+sudo make install doc
+```
 
 I recommend using Docker to install and run this script.
 
@@ -35,7 +37,9 @@ Replace `your/music/folder` with your music directory.
 3. **If you installed from source**, then open `spotify-downloader.py` and change the `OUTPUT_DIR` variable's value to your music directory.
 
 ### Downloading a single track
-> python spotify-downloader track {TRACK_ID}
+```console
+python spotify-downloader track {TRACK_ID}
+```
 
 ### Downloading a playlist
 > python spotify-downloader playlist {PLAYLIST_ID}
