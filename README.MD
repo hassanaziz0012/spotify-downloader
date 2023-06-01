@@ -21,7 +21,7 @@ docker run -it -v your/music/folder:/app/music spotify-downloader
 git clone https://github.com/hassanaziz0012/spotify-downloader
 ```
 2. Install the required dependencies. This project needs [`ytfzf`](https://github.com/pystardust/ytfzf) and [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) to work.
-```python
+```console
 # install python packages, including yt-dlp 
 pip install -r requirements.txt 
 
