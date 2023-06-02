@@ -42,7 +42,7 @@ class Downloader:
 
         filename = f"{self.OUTPUT_DIR}/{self._create_search_term(track_data, escape_chars=False)}.m4a"
 
-        if os.path.exists(filename):
+        if os.path.exists(filename) and skip_if_exists == True:
             print(TermColors.OKBLUE + f"{track_data['track_name']} already exists. Skipping download...")
         else:
             filename = self._download_from_yt(track_data, custom_yt_url=custom_yt_url)
