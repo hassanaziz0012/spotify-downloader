@@ -1,6 +1,8 @@
 # Spotify Downloader
 This is a small script that lets you download tracks and playlists from Spotify directly from the command line. See below for installation and usage instructions and examples.
 
+![demo](./spotify-downloader-demo.gif)
+
 ## Installation
 ### Docker container (the recommended and easy way)
 1. Clone this repository.
