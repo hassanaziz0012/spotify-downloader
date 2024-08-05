@@ -67,8 +67,11 @@ python spotify-downloader playlist {PLAYLIST_ID} -s
 python spotify-downloader yt={YT_URL} track {TRACK_ID}
 ```
 
-## About me
-I'm a freelance developer. Wanna see more of my work? See my website here: https://www.hassandev.me
+## Author
+- Hassan Aziz
+- Web Developer and Designer
+- Website: https://www.hassandev.me
+- Check out my other [web projects](https://www.hassandev.me/projects)
 
 ---
 That's all, folks!
